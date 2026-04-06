@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Movimentacao {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Alinhado ao H2 e ao padrão do Produto
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
